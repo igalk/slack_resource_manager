@@ -1,5 +1,5 @@
 import json
-from resource import *
+from .resource import *
 
 class Repository:
     def __init__(self, proxy):

@@ -1,4 +1,4 @@
-from user import *
+from .user import *
 
 class Resource:
     def __init__(self, id, details, user=None):
