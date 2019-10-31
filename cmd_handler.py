@@ -1,8 +1,8 @@
 import argparse
 import os
 import traceback
-from bot import *
-from user import *
+from .bot import *
+from .user import *
 
 class CmdHandler(Bot):
     def __init__(self, repository, admin_repo=None):

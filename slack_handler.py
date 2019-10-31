@@ -1,6 +1,6 @@
 # import inflect
-from bot import *
-from user import *
+from .bot import *
+from .user import *
 
 class SlackHandler(Bot):
     def __init__(self, token, invocation_command, repository, admin_repo=None):
